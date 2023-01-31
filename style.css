@@ -1,0 +1,29 @@
+.container {
+    max-width: 500px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+}
+
+label {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px 0;
+}
+
+.edit-text-wrapper {
+    display: none;
+    width: 100%;
+}
+
+.manage {
+    display: flex;
+}
